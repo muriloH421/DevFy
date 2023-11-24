@@ -1,0 +1,42 @@
+.footermaster {
+  width: 98%;
+  height: 5.7em;
+  background: linear-gradient(to right, #ae2997 10%, #5c8ce9 90%);
+  bottom: -0.4em;
+  left: 1.7em;
+  right: 1.7em;
+  position: absolute;
+}
+.footermaster h4 {
+  left: 20px;
+  position: absolute;
+}
+.footermaster h4:nth-of-type(2) {
+  margin-top: 3em;
+}
+.footermaster h3 {
+  margin-left: 5em;
+  margin-top: 2.4em;
+}
+
+.subgrat button {
+  background: white;
+  color: black;
+  border-radius: 35px;
+  position: absolute;
+  right: 0;
+  margin-right: 10em;
+  margin-top: -3.3em;
+  transition: transform 0.3s;
+}
+.subgrat button:hover {
+  transform: scale(1.1);
+}
+
+.footermaster p {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35em;
+  border-radius: 30px;
+}
